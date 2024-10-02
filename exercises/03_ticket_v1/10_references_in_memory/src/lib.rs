@@ -13,7 +13,7 @@ mod tests {
 
     #[test]
     fn u16_ref_size() {
-        assert_eq!(size_of::<&u16>(), 2);
+        assert_eq!(size_of::<&u16>(), 8);
     }
 
     #[test]
